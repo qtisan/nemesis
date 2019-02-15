@@ -4,7 +4,7 @@ const bakup = require('../lib/fs/bakup');
 const { scheduleJob } = require('node-schedule');
 const l = require('./config/log4js').getLogger('SMOEC');
 
-scheduleJob('10 * * * * *', (currentDate) => {
+scheduleJob('* 10 2 * * *', (currentDate) => {
 
   l.info(`${moment(currentDate).format('YYYY-MM-DD HH:mm:ss')} bakup.`);
 
