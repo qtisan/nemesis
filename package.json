@@ -4,7 +4,8 @@
   "description": "nemesis utilities",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "smoec_bak": "node examples/smoec_bak_file.js"
   },
   "repository": {
     "type": "git",
