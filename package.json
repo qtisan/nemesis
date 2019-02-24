@@ -25,10 +25,12 @@
     "eslint": "^5.13.0"
   },
   "dependencies": {
+    "7zip-bin": "^4.1.0",
     "adm-zip": "^0.4.13",
     "jsftp": "^2.1.3",
     "log4js": "^4.0.2",
     "moment": "^2.24.0",
+    "node-7z": "^1.1.0",
     "node-schedule": "^1.3.2",
     "walk": "^2.3.14"
   }

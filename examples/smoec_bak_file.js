@@ -12,7 +12,8 @@ scheduleJob('* 10 2 * * *', (currentDate) => {
     prodDir: 'D:\\tomb',
     bakupPath: 'D:\\tomb_file\\',
     bakupCount: 60,
-    current: moment()
+    current: moment(),
+    logger: l
   }).then((dst) => {
     l.info(`has bakup to path ${dst}`);
   }).catch((e) => {
