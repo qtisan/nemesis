@@ -26,5 +26,5 @@ if (process.argv[2] && process.argv[2] == 'now') {
   console.log('bak immediately.');
   bak(new Date());
 } else {
-  scheduleJob('* 10 2 * * *', bak );
+  scheduleJob('1 10 2 * * *', bak );
 }
